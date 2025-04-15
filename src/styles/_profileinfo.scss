@@ -1,0 +1,41 @@
+@use './variables';
+@use './mixins';
+
+.profile-info-container {
+   margin: auto;
+   @include mixins.section-width;
+}
+
+.profile-name, .profile-quote {
+   display: flex;
+}
+
+.profile-name > h1 {
+   font-size: 2.4rem;
+   font-weight: 800;
+}
+
+.profile-name > img {
+   padding-left: 5px;
+   height: 30px;
+   align-self: center;
+}
+
+#username {
+   color: variables.$grey; 
+}
+
+.profile-quote > img {
+   padding-left: 5px;
+   height: 25px;
+}
+
+.profile-quote p, #username {
+   padding-bottom: 5px;
+}
+
+.profile-quote p, #header-para-desc {
+   font-size: 0.95rem;
+   color: variables.$white;
+   font-weight: 500;
+}

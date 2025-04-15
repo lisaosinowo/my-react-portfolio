@@ -1,0 +1,25 @@
+@use './variables';
+@use './mixins';
+
+.profile-details {
+   display: flex;
+   gap: 15px;
+   padding-top: 12px;
+   margin: auto;
+   @include mixins.section-width;
+}
+
+.profile-details img {
+   width: 25px;
+   padding-right: 5px;
+}
+
+.prof-details-sections {
+   display: flex;
+}
+
+.prof-details-sections p, .prof-details-sections a {
+   color: variables.$grey;
+   text-decoration: none;
+   font-size: 1rem;
+}

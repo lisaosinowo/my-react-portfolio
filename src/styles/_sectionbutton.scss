@@ -1,0 +1,46 @@
+@use "./variables";
+@use "./mixins";
+
+.portfolio-sections {
+   position: sticky;
+   display: grid;
+   grid-template-columns: repeat(3, calc(100% / 3));
+   @include mixins.section-width;
+   margin: 45px auto;
+   // border: 2px solid yellow;
+}
+
+.portfolio-sections span {
+   text-align: center;
+   font-weight: 700;
+   color: variables.$white;
+   padding: 15px 15px;
+   position: relative;
+   display: inline-block;
+   cursor: pointer;
+
+   &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -2px; // adjust distance from text
+      height: 3px;
+      width: 100%;
+      background-image: repeating-linear-gradient(
+         to bottom,
+         variables.$sky-blue,
+         variables.$sky-blue 1px,
+         transparent 1px,
+         transparent 3px,
+         variables.$sky-blue 3px,
+         variables.$sky-blue 4px
+      );
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.5s ease;
+   }
+
+   &:hover::after {
+      transform: scaleX(1);
+   }
+}

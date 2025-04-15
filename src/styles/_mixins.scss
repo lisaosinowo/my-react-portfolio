@@ -1,0 +1,19 @@
+@use 'variables';
+
+@mixin section-width {
+   width: 40%;
+   min-width: 680px;
+   max-width: 720px;
+}
+@mixin medium-btn {
+   color: variables.$white;
+   background-color: variables.$sky-blue;
+   font-family: variables.$main-font;
+   height: 45px;
+   width: 110px;
+   border-radius: 9999px;
+   border: none;
+   font-weight: 800;
+   font-size: 16px;
+   cursor: pointer;
+}
