@@ -6,7 +6,7 @@
    display: grid;
    grid-template-columns: repeat(3, calc(100% / 3));
    @include mixins.section-width;
-   margin: 45px auto;
+   margin: 45px auto 20px auto;
    // border: 2px solid yellow;
 }
 

@@ -35,6 +35,7 @@
    height: 280px;
    position: absolute;
    top: 25px;
+   // border: 2px solid pink;
 }
 
 #profile-pic {
@@ -71,5 +72,16 @@
    // border: 1px solid #ff00d0;
    background: transparent;
    bottom: -5px;
+}
+
+@media only screen and (max-width: 1030px){
+   #thumbnail {
+      height: 70%;
+      width: 85%;
+   }
+
+   .hero {
+      width: 100vw;
+   }
 }
 

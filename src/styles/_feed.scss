@@ -1,0 +1,137 @@
+@use 'variables';
+@use './mixins';
+
+.feed-section-containers {
+   display: flex;
+   justify-content: center;
+   margin: 20px 0;
+   border-radius: 10px;
+   border: 3px solid variables.$dark-navy3;
+   margin: auto;
+   @include mixins.section-width;
+}
+
+.feed-section-containers:hover,
+.about-main-container:hover,
+.projects-main-container:hover {
+   border: 3px solid variables.$grey1;
+}
+
+.feed-container {
+   width: 90%;
+}
+
+.feed-content {
+   margin-top: 20px;
+}
+
+.bottom-spacing {
+   margin-bottom: 15px;
+}
+
+.feed-spacing, .spacing {
+   margin-top: 15px;
+}
+
+// FEED SECTION 1 START
+
+.feed-top-content {
+   display: flex;
+}
+
+.profile-pic-pin, .profile-pic-container {
+   display: block;
+   width: 10%;
+}
+
+#pushpin-img {
+   display: flex;
+   width: 20px;
+   margin-left: 25px;
+   margin-bottom: 10px;
+}
+
+#mini-profile-pic-pinned,
+.mini-profile-pic, #mini-profile-pic {
+   width: 48px;
+   border-radius: 9999px;
+}
+
+.feed-content-info {
+   width: 80%;
+}
+
+#pinned-name {
+   margin: 0;
+   font-size: 13px;
+   padding-bottom: 4px;
+}
+
+.name-date-pinned,
+.name-date {
+   display: flex;
+   width: 100%;
+   align-items: center;
+   font-size: 14px;
+   line-height: 20px;
+   padding-bottom: 6px;
+}
+
+.name-date {
+   margin-top: -2%;
+}
+
+.name-date-name {
+   padding-right: 3px;
+}
+
+.name-date-pinned img,
+.name-date img {
+   width: 20px;
+   height: 15px;
+}
+
+.username-feed,
+.name-date-date,
+.dot-name-date {
+   color: variables.$grey;
+}
+
+.username-feed,
+.dot-name-date,
+.blue-tick {
+   padding-right: 5px;
+}
+
+.feed-desc-container {
+   display: flex;
+   justify-content: end;
+   margin-top: -40px;
+}
+
+.feed-desc {
+   display: block;
+   width: 90%;
+}
+
+.feed-desc p {
+   padding-bottom: 14px;
+   font-size: 14px;
+   line-height: 22px;
+}
+
+.photo {
+   width: 100%;
+   border-radius: 10px;
+   margin-bottom: 15px;
+}
+
+.link-to-sites {
+   margin-left: 93%;
+   width: 5%;
+}
+
+.feed-desc .like-heart {
+   margin-left: 88%;
+   width: 5%;
+}
