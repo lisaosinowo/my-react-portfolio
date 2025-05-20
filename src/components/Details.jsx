@@ -25,7 +25,7 @@ const Details = () => {
             </div>
             <div className="prof-details-sections">
                <img src={calendarIMG} alt="" />
-               <p>Joined January 2025</p>
+               <p>Joined April 2025</p>
             </div>
          </div>
       </>
