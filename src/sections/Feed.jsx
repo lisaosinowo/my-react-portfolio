@@ -13,6 +13,7 @@ const Feed = () => {
          <FeedItem date='9 May 2025' feedText='After 16 weeks of intense learning I have finished the CFG Degree in Fullstack Development! #BigAchievement 🥳' image={CFGdegree} />
          <FeedItem date='4 May 2025' feedText='Allow me to introduce to you all... MOODIE 🎦 An app that gives you movie recommendations based on your mood! You can either take a Mood Quiz or use the Random Movie Generator.' image={Moodie} />
          <FeedItem date='4 May 2025' feedText='CFG Group Project completed ✅ I cannot believe that we made a React app in 3 weeks!! #WomenInTech #TeamworkMakesTheDreamWork' />
+         <FeedItem date='10 April 2025' feedText='I have just found out that I got 83% in the CFG Foundation Exam and an Average Assignment Grade of 97% 😌' />
       </>
    );
 }
