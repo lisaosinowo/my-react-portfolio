@@ -28,12 +28,12 @@
       width: 100%;
       background-image: repeating-linear-gradient(
          to bottom,
-         variables.$purple,
-         variables.$purple 1px,
+         variables.$lilac2,
+         variables.$lilac2 2px,
          transparent 1px,
          transparent 3px,
-         variables.$purple 3px,
-         variables.$purple 4px
+         variables.$lilac2 3px,
+         variables.$lilac2 4px
       );
       transform: scaleX(0);
       transform-origin: left;
