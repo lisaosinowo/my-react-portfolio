@@ -12,14 +12,6 @@
    transition: all 0.4s ease;
 }
 
-.feed-section-containers:hover,
-.about-main-container:hover,
-.projects-main-container:hover {
-   border: 3px solid variables.$navy-purple;
-   box-shadow: 0 0 7px 4px variables.$lilac;
-   cursor: pointer;
-}
-
 .feed-container {
    width: 90%;
 }
@@ -35,8 +27,6 @@
 .feed-spacing, .spacing {
    margin-top: 15px;
 }
-
-// FEED SECTION 1 START
 
 .feed-top-content {
    display: flex;
