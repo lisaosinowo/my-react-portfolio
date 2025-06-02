@@ -1,4 +1,4 @@
-import profilePic from '../media/lisa.jpg'
+import profilePic from '../media/lisa-pink.jpg'
 import check from '../media/body/correct.png'
 import '../styles/_feed.scss';
 
