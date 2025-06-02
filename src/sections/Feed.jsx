@@ -9,6 +9,7 @@ const Feed = () => {
    return (
       <>
          <FeedItemPinned />
+         <FeedItem date='29 May 2025' feedText='I got a MERIT in my Fullstack Development CFG Degree 🥳 I have come a long way from chemical engineering 💃🏾' />
          <FeedItem date='21 May 2025' feedText='Learning about Kali Linux and currently have it working. It seems easy to use so far.. Although I still cannot believe that this can be used for penetration testing 😯 💻' />
          <FeedItem date='19 May 2025' feedText='Today is the day that I start the CFG +Masters in Cybersecurity 👩🏾‍💻. However, I have been told that it is a step up from the CFG Degree. 🥲 #wishmeluck' image={CFGMasters} />
          <FeedItem date='9 May 2025' feedText='After 16 weeks of intense learning I have finished the CFG Degree in Fullstack Development! #BigAchievement 🥳' image={CFGdegree} />
