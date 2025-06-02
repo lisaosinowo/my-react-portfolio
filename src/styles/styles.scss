@@ -8,9 +8,38 @@
    padding: 0;
    font-family: variables.$main-font;
    background-color: variables.$dark-navy-purple1;
-   // overflow-x: hidden;
 }
 
 html {
    scroll-behavior: smooth;
+}
+
+.feed-section-containers:hover,
+.about-main-container:hover,
+.projects-main-container:hover {
+   border: 3px solid variables.$navy-purple;
+   box-shadow: 0 0 7px 4px variables.$lilac;
+   cursor: pointer;
+}
+
+.about-section,
+.projects-section {
+   margin: auto;
+   max-width: 690px;
+   min-width: 630px;
+   @include mixins.section-width;
+}
+
+.about-main-container,
+.projects-main-container {
+   margin: 20px 0;
+   border-radius: 10px;
+   border: 3px solid variables.$dark-navy-purple3;
+   display: flex;
+   justify-content: center;
+}
+
+.about-container,
+.projects-container {
+   width: 89%;
 }
