@@ -7,6 +7,11 @@ import SectionButton from "./SectionButton";
 const MainSection = () => {
    const [active, setActive] = useState("feed");
 
+   const handleSelect = (section) => {
+      setActive(section);
+      window.scrollTo({ top: 0, behavior: "smooth" }); 
+   };
+
    const showSection = () => {
       switch (active) {
          case "feed":
@@ -22,7 +27,7 @@ const MainSection = () => {
 
    return (
       <>
-         <SectionButton onSelect={setActive} />
+         <SectionButton onSelect={handleSelect} />
          <div>{showSection()}</div>
       </>
    );
