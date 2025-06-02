@@ -23,8 +23,7 @@ const ProfileInfo = () => {
             </div>
 
             <p id="header-para-desc">
-               Web Developer. Aspiring Fullstack Developer. Chemical Engineering
-               (BEng) Graduate.
+               Software Engineer. Web Developer. Chemical Engineering Graduate.
             </p>
          </div>
          <Details />            
