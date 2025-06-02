@@ -1,5 +1,5 @@
 import React from "react";
-import Lisa from "../media/lisa.jpg";
+import Lisa from "../media/lisa-pink.jpg";
 import "../styles/_header.scss";
 import Button from "./Button";
 

@@ -1,12 +1,12 @@
 import React from "react";
 import pin from '../media/feed-section/pushpin.png'
-import profilePic from '../media/lisa.jpg'
+import profilePic from '../media/lisa-pink.jpg'
 import check from '../media/body/correct.png'
 import lisa from '../media/feed-section/lisaBlue.jpg'
 import '../styles/_feed.scss';
 
 const FeedItemPinned = () => {
-   return (
+   return ( 
       <>
          <div className="feed-section-containers">
             <div className="feed-container bottom-spacing">
