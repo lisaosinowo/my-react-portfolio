@@ -1,13 +1,12 @@
-import React from 'react';
 import '../styles/_sectionbutton.scss';
 
-const SectionButton = () => {
+const SectionButton = ({onSelect}) => {
    return (
       <>
          <div className="portfolio-sections">
-            <span className="nav-links">Feed</span>
-            <span className="nav-links">About</span>
-            <span className="nav-links">Projects</span>
+            <span onClick={() => onSelect('feed')}>Feed</span>
+            <span onClick={() => onSelect('about')}>About</span>
+            <span onClick={() => onSelect('projects')}>Projects</span>
          </div>
       </>
    );
