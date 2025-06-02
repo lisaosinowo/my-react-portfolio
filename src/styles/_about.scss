@@ -1,0 +1,11 @@
+@use 'variables';
+@use './mixins';
+
+.about-container p,
+.about-container h1 {
+   padding-bottom: 20px;
+}
+
+.about-container h1 {
+   padding-top: 15px;
+}
