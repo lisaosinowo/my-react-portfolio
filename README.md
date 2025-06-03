@@ -12,4 +12,4 @@ This section gives a description of who I am.
 This sections shows all of the coding languages that I know.
 
 ## Projects
-This section shows all of my coding projects
+This section shows all of my coding projects.
