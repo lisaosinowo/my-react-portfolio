@@ -1,4 +1,3 @@
-import React from 'react';
 import FeedItemPinned from '../components/FeedItemPinned';
 import FeedItem from '../components/FeedItem';
 import CFGdegree from '../media/feed-section/CFGDegree-Logo.png'
