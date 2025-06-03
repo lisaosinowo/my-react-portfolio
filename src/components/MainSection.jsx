@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Feed from "../sections/Feed";
 import About from "../sections/About";
+import Languages from "../sections/Languages";
 import Projects from "../sections/Projects";
 import SectionButton from "./SectionButton";
 
@@ -18,6 +19,8 @@ const MainSection = () => {
             return <Feed />;
          case "about":
             return <About />;
+         case "languages":
+            return <Languages />;   
          case "projects":
             return <Projects />;
          default:

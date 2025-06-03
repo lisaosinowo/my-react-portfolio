@@ -6,6 +6,7 @@ const SectionButton = ({onSelect}) => {
          <div className="portfolio-sections">
             <span onClick={() => onSelect('feed')}>Feed</span>
             <span onClick={() => onSelect('about')}>About</span>
+            <span onClick={() => onSelect('languages')}>Languages</span>
             <span onClick={() => onSelect('projects')}>Projects</span>
          </div>
       </>
