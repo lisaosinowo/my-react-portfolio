@@ -6,11 +6,13 @@ const Language = (props) => {
          <div className="language-section">
             <div className="language-main-container">
                <div className="language-container spacing">
-                  <div className="top-content">
-                     <img className="photo" src={props.image} />
-                  </div>
-                  <div className="bottom-content">
-                     <h3>{props.title}</h3>
+                  <div className="language-entry">
+                     <div className="lang-content">
+                        <img className="lang-pic" src={props.image} />
+                        <div className="lang-title">
+                           <h3>{props.title}</h3>
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>
