@@ -1,12 +1,15 @@
 import ProfileInfo from './ProfileInfo';
 import '../styles/_mixins.scss';
+import '../styles/_body.scss';
 import MainSection from './MainSection';
 
 const Body = () => {
    return (
       <>
-         <ProfileInfo />
-         <MainSection />
+         <div className="body-container">
+            <ProfileInfo />
+            <MainSection />
+         </div>
       </>
    );
 }
