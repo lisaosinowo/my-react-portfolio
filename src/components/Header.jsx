@@ -2,6 +2,7 @@ import React from "react";
 import Lisa from "../media/lisa-pink.jpg";
 import "../styles/_header.scss";
 import Button from "./Button";
+import Coder from '../media/desk-setup.jpg';
 
 const Header = () => {
    return (
@@ -11,8 +12,7 @@ const Header = () => {
                <div className="hero">
                   <img
                      id="thumbnail"
-                     src="https://compote.slate.com/images/306254c7-594a-4db5-8f18-48ba6020a771.gif"
-                     alt=""
+                     src={Coder}
                   />
                   <div className="profile-pic-and-btn">
                      <img id="profile-pic" src={Lisa} alt="" />
