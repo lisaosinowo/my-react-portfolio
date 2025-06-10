@@ -11,14 +11,14 @@ import SQL from "../media/languages-section/sql.svg";
 const Languages = () => {
    return (
       <>
-         <Language image={React} title="React" />
-         <Language image={JS} title="JavaScript" />
-         <Language image={PY} title="Python" />
-         <Language image={TS} title="TypeScript" />
-         <Language image={HTML} title="HTML" />
-         <Language image={CSS} title="CSS" />
-         <Language image={SASS} title="SASS" />
-         <Language image={SQL} title="SQL" />
+         <Language image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" title="React" />
+         <Language image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg" title="JavaScript" />
+         <Language image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" title="Python" />
+         <Language image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg" title="TypeScript" />
+         <Language image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain.svg" title="HTML" />
+         <Language image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg" title="CSS" />
+         <Language image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" title="SASS" />
+         <Language image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" title="SQL" />
       </>
    );
 };

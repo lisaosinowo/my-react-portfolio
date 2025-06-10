@@ -1,7 +1,7 @@
 import React from "react";
 import briefcaseIMG from '../media/body/briefcase.png';
 import linkIMG from '../media/body/link.png';
-import birthdaycakeIMG from '../media/body/birthday-cake.png';
+import birthdaycakeIMG from '../media/body/birthday.png';
 import calendarIMG from '../media/body/calendar.png';
 import '../styles/_details.scss';
 
