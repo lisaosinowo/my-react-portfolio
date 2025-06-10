@@ -1,5 +1,5 @@
 import React from "react";
-import pin from '../media/feed-section/pushpin.png'
+import pin from '../media/feed-section/push-pin.png'
 import profilePic from '../media/lisa-pink.jpg'
 import check from '../media/body/correct.png'
 import lisa from '../media/feed-section/lisaBlue.jpg'
