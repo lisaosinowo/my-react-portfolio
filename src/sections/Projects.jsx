@@ -1,3 +1,5 @@
+import '../styles/_projects.scss';
+
 const Projects = () => {
    return (
       <>
