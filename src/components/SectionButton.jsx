@@ -7,7 +7,7 @@ const SectionButton = ({onSelect}) => {
             <span onClick={() => onSelect('feed')}>Feed</span>
             <span onClick={() => onSelect('about')}>About</span>
             <span onClick={() => onSelect('languages')}>Languages</span>
-            <span onClick={() => onSelect('projects')}>Projects</span>
+            {/* <span onClick={() => onSelect('projects')}>Projects</span> */}
          </div>
       </>
    );

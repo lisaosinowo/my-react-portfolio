@@ -4,7 +4,7 @@
 .portfolio-sections {
    position: sticky;
    display: grid;
-   grid-template-columns: repeat(4, calc(100% / 4));
+   grid-template-columns: repeat(4, calc(100% / 3));
    @include mixins.section-width;
    margin: 45px auto 20px auto;
    // border: 2px solid yellow;
