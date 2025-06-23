@@ -8,7 +8,7 @@ const About = () => {
                <div className="about-container">
                   <h1>Hi User! 😊</h1>
                   <p className="about-info">
-                     I am Lisa, a Software Enginner (and Chemical Engineering
+                     I am Lisa, a Software Engineer (and Chemical Engineering
                      graduate).
                   </p>
 
@@ -28,7 +28,7 @@ const About = () => {
                      In January 2025 I started a 16-week CFGdegree in
                      Fullstack Development with a +Masters in Cyber Security
                      with Code First Girls. This course included HTML, CSS,
-                     JavaScript, React, TypeScript and Angular.
+                     JavaScript, React, TypeScript and Angular. I will become a software development engineer in test at Capgemini this July thanks to the CFG Degree.
                   </p>
 
                   <p className="about-info">
