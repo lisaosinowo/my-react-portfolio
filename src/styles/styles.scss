@@ -43,3 +43,19 @@ html {
 .projects-container, .language-container {
    width: 89%;
 }
+
+.app-container {
+  position: relative;
+  width: 100vw;
+  overflow: hidden;
+}
+
+#tsparticles {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+

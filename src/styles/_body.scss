@@ -2,5 +2,12 @@
 
 .body-container {
    margin-top: 110px;
+   position: sticky;
+   width: 50%;
+}
+
+.body-main-container {
+   display: flex;
+   justify-content: center;
 }
 
